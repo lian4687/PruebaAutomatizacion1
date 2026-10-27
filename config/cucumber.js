@@ -11,14 +11,17 @@ module.exports = {
     requireModule: [
       "tsx"
     ],
-    import: [
-      "allure-cucumberjs/reporter"
-    ],
+    //import: [
+      //"allure-cucumberjs/reporter"
+    //],
     format: [
-      "summary"
+      "summary",
+      "./reporter.cjs"
     ],
     formatOptions: {
       resultsDir: "allure-results"
-    }
+    },
+    publishQuiet: true  
   }
+  
 };

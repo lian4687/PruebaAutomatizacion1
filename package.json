@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
+  "scripts": {
     "test": "cucumber-js --config config/cucumber.js",
     "test:leer": "cucumber-js --config config/cucumber.js --tags \"@leer\"",
     "test:crear": "cucumber-js --config config/cucumber.js --tags \"@cear\"",
@@ -11,7 +11,6 @@
     "allure:open": "npx allure open allure-report",
     "allure:serve": "npx allure serve allure-results"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
