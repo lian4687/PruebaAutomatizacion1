@@ -26,7 +26,7 @@ Para correr la automatización con etiquetas utilizar estos comandos:
 ```bash
 npx cucumber-js --config config/cucumber.js --tags "@crear"
 npx cucumber-js --config config/cucumber.js --tags "@leer"
-npx cucumber-js --config config/cucumber.js --tags "@editar  
+npx cucumber-js --config config/cucumber.js --tags "@editar"  
 npx cucumber-js --config config/cucumber.js --tags "@eliminar"   
 ```
 
